@@ -1,0 +1,13 @@
+Cup
+
+attributes:
+color: (string)
+material: (string)
+current_volume: (float)
+clean: (boolean)
+
+methods:
+fill: (adds 50 to current_volume)
+drink: (subtracts 10 from current_volume)
+clean: (sets clean to true)
+calculate_current_volume: (current_volume / total_volume)
