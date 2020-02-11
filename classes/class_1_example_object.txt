@@ -1,0 +1,13 @@
+Glass_Heinz_Ketchup_Bottle
+
+attribute values:
+material: glass
+color: "clear"
+current_volume: 100
+stickers: ["57", "Heinz"]
+
+methods:
+material: glass = false
+fill: current_volume = 110
+pour: current_volume = 105
+add_sticker: ["57", "Heinz", "ingredients"]
