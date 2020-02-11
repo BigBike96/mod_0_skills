@@ -1,0 +1,13 @@
+Ketchup_bottle
+
+attributes:
+material (boolean)
+color (string)
+current_volume (integer)
+stickers (array)
+
+methods:
+plastic (set material to true)
+fill (add 10 to current_volume)
+pour (subtract 5 from current_volume)
+add_sticker (adds a sticker to end of array)
