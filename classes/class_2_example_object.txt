@@ -1,0 +1,14 @@
+Plastic cup
+
+attributes:
+color: "red"
+material: "plastic"
+current_volume: 0
+total_volume: 100
+clean: false
+
+methods:
+fill: current_volume = 50
+drink: current_volume = 40
+clean : true
+calculate_current_volume: 40 / 100 = .4
