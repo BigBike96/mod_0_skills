@@ -1,13 +1,14 @@
-Ketchup_bottle
+Ketchup bottle
 
 attributes:
-material (boolean)
+material (string)
 color (string)
-current_volume (integer)
+currentVolume (integer)
 stickers (array)
+isOpen (boolean)
 
 methods:
-plastic (set material to true)
-fill (add 10 to current_volume)
-pour (subtract 5 from current_volume)
-add_sticker (adds a sticker to end of array)
+open (sets isOpen to true)
+fill (add 10 to currentVolume)
+pour (subtract 5 from currentVolume)
+addSticker (adds a sticker to end of array)
