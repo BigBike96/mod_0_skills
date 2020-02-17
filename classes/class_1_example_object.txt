@@ -1,13 +1,14 @@
-Glass_Heinz_Ketchup_Bottle
+Plastic Heinz Ketchup bottle
 
 attribute values:
-material: glass
+material: "plastic"
 color: "clear"
-current_volume: 100
+currentVolume: 100
 stickers: ["57", "Heinz"]
+isOpen: false
 
 methods:
-material: glass = false
-fill: current_volume = 110
-pour: current_volume = 105
-add_sticker: ["57", "Heinz", "ingredients"]
+open: isOpen = true
+fill: currentVolume = 110
+pour: currentVolume = 105
+addSticker: ["57", "Heinz", "ingredients"]
